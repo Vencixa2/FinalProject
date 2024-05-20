@@ -1,0 +1,38 @@
+.container-fluid {
+    background-color: #333;
+    padding: 20px;
+}
+.home {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home:hover {
+    color: #e5e5e5;
+}
+.nav {
+    border: 1px solid rgba(112, 112, 112, 0.1);
+    border-bottom: none;
+    width: 20%;
+    text-align: center;
+}
+.nav a {
+    color: #000;
+}
+.explanation {
+    width: 80%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    width: 80%;
+}
+
+.text-1 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
