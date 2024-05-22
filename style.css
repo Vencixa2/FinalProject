@@ -1,3 +1,6 @@
+html,body {
+    height: 100%;
+}
 .container-fluid {
     background-color: #333;
     padding: 20px;
@@ -13,26 +16,45 @@
     color: #e5e5e5;
 }
 .nav {
-    border: 1px solid rgba(112, 112, 112, 0.1);
+    border: 2px solid rgba(112, 112, 112, 0.3);
     border-bottom: none;
-    width: 20%;
-    text-align: center;
+    border-top: none;
+    width: 15%;
+    height: 100%;
+    float: left;
 }
 .nav a {
+    color: #000;
+    padding: 5px 10px 5px 0;
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.nav a:hover {
+    background-color: #d5d5d5;
     color: #000;
 }
 .explanation {
     width: 80%;
-    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .content {
     width: 80%;
 }
-
-.text-1 {
+.h3 {
     margin-left: 30px;
+    margin-top: 30px;
+}
+.text-layout {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.ol {
     margin-top: 30px;
 }
